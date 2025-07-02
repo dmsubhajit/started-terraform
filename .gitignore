@@ -1,0 +1,28 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Terraform plan output
+plan
+
+# Sensitive files
+*.backup
+*.log
+
+# Local files created by Terraform
+example*.txt
+example*.md
+sensitive_example*.txt
+files/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak

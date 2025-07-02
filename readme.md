@@ -1,0 +1,26 @@
+https://registry.terraform.io/namespaces/hashicorp
+```sh
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+terraform plan -out=./plan # location to store plan in dir
+terraform destroy -auto-approve # destroy withot confirmation 
+terraform apply -auto-approve # apply without confirmation
+terraform destroy -target=type.local_name # local_sensitive_file.tf_sensitive_example1
+terraform state list
+terraform stste show type.local_name # terraform state show local_sensitive_file.tf_sensitive_example1
+
+terraform refresh # only update the terraform state file
+```
+
+Meta argument:
+https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on
+depends_on
+count
+for_each
+provider
+lifecycle
+
+
+State
