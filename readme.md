@@ -14,6 +14,17 @@ terraform stste show type.local_name # terraform state show local_sensitive_file
 terraform refresh # only update the terraform state file
 ```
 
+```sh
+# variable via CLI
+terraform pplan -var="<variable_name>=<value>"
+terraform plan -var="filename=via-cli"
+terraform plan -var-file="<file_location> # file name terraform.tfvars default take this
+*.auto.tfvars
+TF_VAR_<name> - Enverement variable
+
+export TF_VAR_filename="form-env-var"
+```
+
 Meta argument:
 https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on
 depends_on
