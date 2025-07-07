@@ -24,6 +24,7 @@ TF_VAR_<name> - Enverement variable
 
 export TF_VAR_filename="form-env-var"
 ```
+Module: https://registry.terraform.io/browse/modules
 
 Meta argument:
 https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on
